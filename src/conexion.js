@@ -1,7 +1,7 @@
 import mysql from 'mysql2'
 
 const conexion = mysql.createPool({
-  host: 'http://146.190.220.48/',
+  host: '146.190.220.48/',
   user: 'root',
   database: 'ejemplo_auth_express',
   password: '',
