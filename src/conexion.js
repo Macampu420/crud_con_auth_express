@@ -4,6 +4,8 @@ const conexion = mysql.createPool({
   host: 'localhost',
   user: 'root',
   database: 'ejemplo_auth_express',
+  password: 'macampu444',
+  port: 3306,
   connectionLimit: 10
 })
 
